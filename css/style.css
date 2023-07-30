@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+nav {
+    background-color: teal;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+ul {
+    float: right;
+    padding-right: 170px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Jost', sans-serif;
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+    /* padding: 37px 20px; */
+}
+
+li {
+    list-style: none;
+
+    float: left;
+    font-size: 22px;
+    padding: 37px 20px 31px;
+
+}
+
+.container1 {
+    width: 50vw;
+    height: 1000px;
+    background-color: royalblue;
+    color: white;
+    position: relative;
+    margin: auto;
+
+}
+
+.subcontainer1 {
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+img.circular-icon {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
